@@ -266,28 +266,27 @@
     </section>
 
     <!-- İletişim / Footer -->
-    <footer class="footer section-hidden" id="contact" data-role="parent">
-        <div class="container">
-            <div class="footer-content glass-panel fade-in-up">
-                <div class="footer-info">
-                    <h2 class="section-title">Bize Ulaşın</h2>
-                    <form action="https://formspree.io/f/xreojzkv" method="POST">
-                    <p>Zorbalığa karşı verdiğimiz bu mücadelede yanımızda olmak, destek vermek veya bilgi almak için bizimle iletişime geçebilirsiniz.</p>
-                </div>
-                <form class="contact-form">
-                    <div class="form-group">
-                        <input type="text" placeholder="Adınız Soyadınız" required>
-                    </div>
-                    <div class="form-group">
-                        <input type="email" placeholder="E-posta Adresiniz" required>
-                    </div>
-                    <div class="form-group">
-                        <textarea rows="4" placeholder="Mesajınız" required></textarea>
-                    </div>
-                    <button type="submit" class="btn primary-btn">Gönder</button>
-                </form>
+   <footer class="footer section-hidden" id="contact" data-role="parent">
+    <div class="container">
+        <div class="footer-content glass-panel fade-in-up">
+            <div class="footer-info">
+                <h2 class="section-title">Bize Ulaşın</h2>
+                <p>Zorbalığa karşı verdiğimiz bu mücadelede yanımızda olmak, destek vermek veya bilgi almak için bizimle iletişime geçebilirsiniz.</p>
             </div>
-            <div class="footer-bottom">
+            
+            <form action="https://formspree.io/f/xreojzkv" method="POST" class="contact-form">
+                <div class="form-group">
+                    <input type="text" name="name" placeholder="Adınız Soyadınız" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" name="email" placeholder="E-posta Adresiniz" required>
+                </div>
+                <div class="form-group">
+                    <textarea name="message" rows="4" placeholder="Mesajınız" required></textarea>
+                </div>
+                <button type="submit" class="btn primary-btn">Gönder</button>
+            </form>
+        </div>
                 <p>&copy; 2026 Eşik Kreatif Ekibi. Tüm Hakları Saklıdır.</p>
             </div>
         </div>
